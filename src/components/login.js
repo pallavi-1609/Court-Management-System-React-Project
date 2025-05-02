@@ -3,9 +3,10 @@ import React from 'react';
 const Login = () => {
   const users = [
     { username: "Sundarmurthy117", password: "12345678", email: "sundar214murthy@gmail.com", name: "Sundar Murthy", dashboard: "/dashboard1" },
-    { username: "SuryaJ1234", password: "1234555", email: "surya214murthy@gmail.com", name: "Surya J", dashboard: "/dashboard1" },
-    { username: "Raghavsharma118", password: "87654321", email: "justice.sharma@supremecourt.in", name: "Raghav Sharma", dashboard: "/dashboard2" }
+    { username: "pallavi", password: "12345678", email: "pallavi@gmail.com", name: "Pallavi N", dashboard: "/dashboard1" },
+    { username: "Harshitha", password: "12345678", email: "justice.Harshitha@supremecourt.in", name: "Harshitha", dashboard: "/dashboard2" }
   ];
+
 
   const handleLogin = () => {
     const usernameInput = document.getElementById('username').value;
